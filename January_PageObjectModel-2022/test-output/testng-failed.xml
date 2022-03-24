@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumFramework_PageObjectModel]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PageObjectModelProject_Jan2022(failed)">
+    <classes>
+      <class name="testcases.CreateLead">
+        <methods>
+          <include name="quit"/>
+          <include name="loginTest" invocation-numbers="0 1"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.CreateLead -->
+      <class name="testcases.LogIN">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="loginTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- testcases.LogIN -->
+    </classes>
+  </test> <!-- PageObjectModelProject_Jan2022(failed) -->
+</suite> <!-- Failed suite [SeleniumFramework_PageObjectModel] -->
